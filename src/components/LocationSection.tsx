@@ -23,7 +23,7 @@ export default function LocationSection() {
                 <div>
                   <div className="text-xs uppercase tracking-wider text-muted-foreground">Adresa</div>
                   <div className="mt-1 font-semibold text-foreground">
-                    Rruga e Durrësit, Laprakë
+                    Rruga Gjergj Legisi, Laprakë
                   </div>
                   <div className="text-sm text-muted-foreground">Tiranë, Shqipëri</div>
                 </div>
@@ -36,13 +36,13 @@ export default function LocationSection() {
                 </div>
                 <div>
                   <div className="text-xs uppercase tracking-wider text-muted-foreground">Orari</div>
-                  <div className="mt-1 font-semibold text-foreground">E hënë – E diel</div>
-                  <div className="text-sm text-muted-foreground">08:00 – 22:00</div>
+                  <div className="mt-1 font-semibold text-foreground">Hapur 24/7</div>
+                  <div className="text-sm text-muted-foreground">Çdo ditë, në çdo orar</div>
                 </div>
               </div>
             </div>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=Laprak%C3%AB+Tiran%C3%AB"
+              href="https://www.google.com/maps/search/?api=1&query=Rruga+Gjergj+Legisi+Laprak%C3%AB+Tiran%C3%AB"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-primary py-3 text-center text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
@@ -54,7 +54,7 @@ export default function LocationSection() {
           <div className="md:col-span-3 overflow-hidden rounded-2xl border border-border shadow-[var(--shadow-card)]">
             <iframe
               title="Lokacioni Rental Lapraka"
-              src="https://www.google.com/maps?q=Laprak%C3%AB,+Tiran%C3%AB&output=embed"
+              src="https://www.google.com/maps?q=Rruga+Gjergj+Legisi,+Laprak%C3%AB,+Tiran%C3%AB&output=embed"
               loading="lazy"
               className="h-80 w-full md:h-full"
               referrerPolicy="no-referrer-when-downgrade"
