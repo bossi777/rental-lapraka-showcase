@@ -12,7 +12,7 @@ export default function ContactSection() {
             Na shkruani ose telefononi
           </h2>
           <p className="mt-3 text-muted-foreground">
-            Jemi në dispozicionin tuaj çdo ditë nga ora 08:00 deri 22:00.
+            Jemi në dispozicionin tuaj 24/7, çdo ditë të javës.
           </p>
         </div>
 
@@ -31,7 +31,7 @@ export default function ContactSection() {
           </a>
 
           <a
-            href="mailto:info@rentallapraka.al"
+            href="mailto:laprakarental@gmail.com"
             className="group flex flex-col items-center gap-3 rounded-2xl border border-border bg-card p-6 text-center shadow-[var(--shadow-card)] transition-all hover:-translate-y-1 hover:border-gold"
           >
             <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gold-soft text-gold">
@@ -39,7 +39,7 @@ export default function ContactSection() {
             </div>
             <div>
               <div className="text-xs uppercase tracking-wider text-muted-foreground">Email</div>
-              <div className="mt-1 font-semibold text-foreground">info@rentallapraka.al</div>
+              <div className="mt-1 font-semibold text-foreground">laprakarental@gmail.com</div>
             </div>
           </a>
 
