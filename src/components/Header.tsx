@@ -1,3 +1,5 @@
+import logo from "@/assets/logo.png";
+
 const navItems = [
   { label: "Kryefaqja", href: "#home" },
   { label: "Kontakt", href: "#kontakt" },
@@ -9,9 +11,11 @@ export default function Header() {
     <header className="sticky top-0 z-40 w-full border-b border-border bg-background/80 backdrop-blur-md">
       <div className="container flex h-16 items-center justify-between">
         <a href="#home" className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-            <span className="font-display text-sm font-bold tracking-wider">RL</span>
-          </div>
+          <img
+            src={logo}
+            alt="Rental Lapraka logo"
+            className="h-12 w-12 rounded-lg object-cover"
+          />
           <div className="flex flex-col leading-tight">
             <span className="font-display text-base font-semibold text-foreground">
               Rental Lapraka
