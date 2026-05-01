@@ -1,7 +1,7 @@
 import mercedesC from "@/assets/mercedes-c.jpg";
 import golf7 from "@/assets/golf-7.jpg";
 import bmw3 from "@/assets/bmw-3.jpg";
-import lamborghiniMansory from "@/assets/lamborghini-mansory.jpg";
+import kia2023 from "@/assets/kia-2023.jpg";
 import passat from "@/assets/passat.jpg";
 import evoque from "@/assets/evoque.jpg";
 
@@ -58,17 +58,17 @@ export const cars: Car[] = [
     description: "Sportive dhe elegante, me performancë të shkëlqyer dhe interier premium.",
   },
   {
-    id: "lamborghini-urus-mansory",
-    name: "Lamborghini Urus Mansory H3NRI1",
-    price: 500,
-    image: lamborghiniMansory,
-    color: "E zezë mat",
+    id: "kia-2023",
+    name: "Kia Sportage 2023",
+    price: 100,
+    image: kia2023,
+    color: "Gri metalike",
     transmission: "Automat",
-    fuel: "Benzinë",
+    fuel: "Naftë",
     seats: 5,
     year: 2023,
     description:
-      "SUV ekskluziv Lamborghini Urus me paketë Mansory, xhama të zinj dhe targa personale H3NRI1 — fuqi, luks dhe prezencë e pakrahasueshme.",
+      "SUV modern dhe komod, ideal për familje dhe udhëtime të gjata me konsum efikas.",
   },
   {
     id: "passat",
