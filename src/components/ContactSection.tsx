@@ -14,6 +14,9 @@ export default function ContactSection() {
           <p className="mt-3 text-muted-foreground">
             Jemi në dispozicionin tuaj 24/7, çdo ditë të javës.
           </p>
+          <div className="mt-5 inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold-soft px-5 py-2 text-sm font-semibold text-gold">
+            ✈️ Ju sjellim makinën falas deri në aeroport
+          </div>
         </div>
 
         <div className="mx-auto mt-10 grid max-w-4xl grid-cols-1 gap-4 md:grid-cols-3">
