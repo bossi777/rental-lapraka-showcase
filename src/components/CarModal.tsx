@@ -95,13 +95,13 @@ export default function CarModal({ car, onClose }: Props) {
 
           <div className="mt-6 flex flex-col gap-2 sm:flex-row">
             <a
-              href="tel:+355691234567"
+              href="tel:+355692276009"
               className="flex-1 rounded-full bg-gold py-3 text-center text-sm font-semibold text-gold-foreground shadow-[var(--shadow-gold)] transition-transform hover:scale-[1.02]"
             >
               Rezervo tani
             </a>
             <a
-              href={`https://wa.me/355691234567?text=Përshëndetje, jam i interesuar për ${encodeURIComponent(car.name)}`}
+              href={`https://wa.me/355692276009?text=Përshëndetje, jam i interesuar për ${encodeURIComponent(car.name)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 rounded-full border border-border bg-background py-3 text-center text-sm font-semibold text-foreground transition-colors hover:bg-secondary"
