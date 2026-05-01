@@ -1,7 +1,7 @@
 import mercedesC from "@/assets/mercedes-c.jpg";
 import golf7 from "@/assets/golf-7.jpg";
 import bmw3 from "@/assets/bmw-3.jpg";
-import audiA4 from "@/assets/audi-a4.jpg";
+import lamborghiniMansory from "@/assets/lamborghini-mansory.jpg";
 import passat from "@/assets/passat.jpg";
 import evoque from "@/assets/evoque.jpg";
 
@@ -58,16 +58,17 @@ export const cars: Car[] = [
     description: "Sportive dhe elegante, me performancë të shkëlqyer dhe interier premium.",
   },
   {
-    id: "audi-a4",
-    name: "Audi A4",
-    price: 65,
-    image: audiA4,
-    color: "Argjend",
+    id: "lamborghini-mansory",
+    name: "Lamborghini Mansory H3NRI1",
+    price: 450,
+    image: lamborghiniMansory,
+    color: "E zezë mat",
     transmission: "Automat",
-    fuel: "Naftë",
-    seats: 5,
-    year: 2020,
-    description: "Dizajn modern, teknologji e avancuar dhe drejtim i sigurt në çdo rrugë.",
+    fuel: "Benzinë",
+    seats: 2,
+    year: 2023,
+    description:
+      "Edicion ekskluziv Mansory me xhama të zinj dhe targa personale H3NRI1 — performancë ekstreme dhe prezencë e pakrahasueshme në rrugë.",
   },
   {
     id: "passat",
