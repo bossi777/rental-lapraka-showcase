@@ -58,17 +58,17 @@ export const cars: Car[] = [
     description: "Sportive dhe elegante, me performancë të shkëlqyer dhe interier premium.",
   },
   {
-    id: "lamborghini-mansory",
-    name: "Lamborghini Mansory H3NRI1",
-    price: 450,
+    id: "lamborghini-urus-mansory",
+    name: "Lamborghini Urus Mansory H3NRI1",
+    price: 500,
     image: lamborghiniMansory,
     color: "E zezë mat",
     transmission: "Automat",
     fuel: "Benzinë",
-    seats: 2,
+    seats: 5,
     year: 2023,
     description:
-      "Edicion ekskluziv Mansory me xhama të zinj dhe targa personale H3NRI1 — performancë ekstreme dhe prezencë e pakrahasueshme në rrugë.",
+      "SUV ekskluziv Lamborghini Urus me paketë Mansory, xhama të zinj dhe targa personale H3NRI1 — fuqi, luks dhe prezencë e pakrahasueshme.",
   },
   {
     id: "passat",
