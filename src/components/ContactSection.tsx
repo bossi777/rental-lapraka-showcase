@@ -18,7 +18,7 @@ export default function ContactSection() {
 
         <div className="mx-auto mt-10 grid max-w-4xl grid-cols-1 gap-4 md:grid-cols-3">
           <a
-            href="tel:+355691234567"
+            href="tel:+355692276009"
             className="group flex flex-col items-center gap-3 rounded-2xl border border-border bg-card p-6 text-center shadow-[var(--shadow-card)] transition-all hover:-translate-y-1 hover:border-gold"
           >
             <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gold-soft text-gold">
@@ -26,7 +26,7 @@ export default function ContactSection() {
             </div>
             <div>
               <div className="text-xs uppercase tracking-wider text-muted-foreground">Telefon</div>
-              <div className="mt-1 font-semibold text-foreground">+355 69 123 4567</div>
+              <div className="mt-1 font-semibold text-foreground">+355 69 227 6009</div>
             </div>
           </a>
 
@@ -44,7 +44,7 @@ export default function ContactSection() {
           </a>
 
           <a
-            href="https://wa.me/355691234567"
+            href="https://wa.me/355692276009"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center gap-3 rounded-2xl border border-border bg-card p-6 text-center shadow-[var(--shadow-card)] transition-all hover:-translate-y-1 hover:border-gold"
@@ -61,7 +61,7 @@ export default function ContactSection() {
 
         <div className="mt-8 text-center">
           <a
-            href="tel:+355691234567"
+            href="tel:+355692276009"
             className="inline-flex rounded-full bg-gold px-8 py-3 text-sm font-semibold text-gold-foreground shadow-[var(--shadow-gold)] transition-transform hover:scale-105"
           >
             Na telefono tani
