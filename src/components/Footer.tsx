@@ -1,11 +1,11 @@
+import logo from "@/assets/logo.png";
+
 export default function Footer() {
   return (
     <footer className="border-t border-border bg-primary py-8 text-primary-foreground">
       <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
         <div className="flex items-center gap-3">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gold text-gold-foreground">
-            <span className="font-display text-sm font-bold tracking-wider">RL</span>
-          </div>
+          <img src={logo} alt="Rental Lapraka logo" className="h-10 w-10 rounded-lg object-cover" />
           <span className="font-display text-sm font-semibold">Rental Lapraka</span>
         </div>
         <p className="text-xs text-primary-foreground/60">
