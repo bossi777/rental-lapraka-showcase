@@ -39,6 +39,11 @@ export default function Hero() {
               Na kontakto
             </a>
           </div>
+
+          <div className="mt-8 inline-flex items-center gap-3 rounded-full border border-gold/40 bg-gold/10 px-5 py-3 text-sm font-medium text-gold">
+            <span className="flex h-2 w-2 rounded-full bg-gold" />
+            Transport falas i makinës deri në Aeroportin e Tiranës
+          </div>
         </div>
       </div>
     </section>
