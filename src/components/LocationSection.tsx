@@ -42,7 +42,7 @@ export default function LocationSection() {
               </div>
             </div>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=Rruga+Gjergj+Legisi+Laprak%C3%AB+Tiran%C3%AB"
+              href="https://maps.app.goo.gl/GtB3refYFv8xd7Be7"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-primary py-3 text-center text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
