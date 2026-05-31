@@ -23,7 +23,7 @@ export default function LocationSection() {
                 <div>
                   <div className="text-xs uppercase tracking-wider text-muted-foreground">Adresa</div>
                   <div className="mt-1 font-semibold text-foreground">
-                    Rruga Gjergj Legisi, Laprakë
+                    Rental Lapraka
                   </div>
                   <div className="text-sm text-muted-foreground">Tiranë, Shqipëri</div>
                 </div>
@@ -54,7 +54,7 @@ export default function LocationSection() {
           <div className="md:col-span-3 overflow-hidden rounded-2xl border border-border shadow-[var(--shadow-card)]">
             <iframe
               title="Lokacioni Rental Lapraka"
-              src="https://www.google.com/maps?q=Rruga+Gjergj+Legisi,+Laprak%C3%AB,+Tiran%C3%AB&output=embed"
+              src="https://www.google.com/maps?q=Rental+Lapraka,+Tiran%C3%AB&output=embed"
               loading="lazy"
               className="h-80 w-full md:h-full"
               referrerPolicy="no-referrer-when-downgrade"
