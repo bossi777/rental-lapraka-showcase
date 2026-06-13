@@ -56,11 +56,18 @@ export default function ScootersSection() {
               >
                 <X className="h-4 w-4" />
               </button>
-              <img
-                src={scooter2.url}
-                alt="Skuterë të disponueshëm"
-                className="h-56 w-full object-cover md:h-72"
-              />
+              <div className="grid grid-cols-2 gap-1 bg-black">
+                <img
+                  src={scooter1.url}
+                  alt="Skuter 1"
+                  className="h-40 w-full object-cover md:h-56"
+                />
+                <img
+                  src={scooter2.url}
+                  alt="Skuter 2"
+                  className="h-40 w-full object-cover md:h-56"
+                />
+              </div>
               <div className="p-6">
                 <h3 className="font-display text-2xl font-bold text-foreground">
                   Motorra me Qera
