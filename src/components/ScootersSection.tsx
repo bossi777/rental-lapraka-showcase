@@ -1,6 +1,6 @@
 import { useState } from "react";
-import scooter1 from "@/assets/scooters-1.jpeg.asset.json";
-import scooter2 from "@/assets/scooters-2.jpeg.asset.json";
+import scooter1 from "@/assets/scooters-1.png.asset.json";
+import scooter2 from "@/assets/scooters-2.png.asset.json";
 import { Clock, Sun, Phone, X } from "lucide-react";
 
 export default function ScootersSection() {
