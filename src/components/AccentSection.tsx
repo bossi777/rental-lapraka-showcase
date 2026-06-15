@@ -25,7 +25,7 @@ export default function AccentSection() {
           className="group relative mx-auto block w-full max-w-2xl overflow-hidden rounded-2xl bg-black shadow-lg transition hover:shadow-xl"
         >
           <img
-            src={accent}
+            src={accent.url}
             alt="Hyundai Accent 2013 - Rental Lapraka"
             className="h-72 w-full object-cover transition duration-500 group-hover:scale-105 md:h-96"
             loading="lazy"
