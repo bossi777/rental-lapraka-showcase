@@ -1,5 +1,5 @@
 import { useState } from "react";
-import accent from "@/assets/hyundai-accent-final.jpg.asset.json";
+import accent from "@/assets/hyundai-accent-rental.jpg.asset.json";
 import { Settings, Fuel, Palette, Gauge, Phone, X } from "lucide-react";
 
 export default function AccentSection() {
