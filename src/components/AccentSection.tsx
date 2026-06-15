@@ -1,5 +1,5 @@
 import { useState } from "react";
-import accent from "@/assets/hyundai-accent-plate.jpeg.asset.json";
+import accent from "@/assets/hyundai-accent-final.jpg.asset.json";
 import { Settings, Fuel, Palette, Gauge, Phone, X } from "lucide-react";
 
 export default function AccentSection() {
@@ -26,7 +26,7 @@ export default function AccentSection() {
         >
           <img
             src={accent.url}
-            alt="Hyundai Accent 2013 - Rental Lapraka"
+            alt="Hyundai Accent 2013"
             className="h-72 w-full object-cover transition duration-500 group-hover:scale-105 md:h-96"
             loading="lazy"
           />
