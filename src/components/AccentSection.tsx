@@ -55,7 +55,7 @@ export default function AccentSection() {
                 <X className="h-4 w-4" />
               </button>
               <img
-                src={accent}
+                src={accent.url}
                 alt="Hyundai Accent 2013"
                 className="h-56 w-full bg-black object-cover md:h-72"
               />
