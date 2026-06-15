@@ -1,5 +1,5 @@
 import { useState } from "react";
-import accent from "@/assets/hyundai-accent.jpg";
+import accent from "@/assets/hyundai-accent-plate.jpeg.asset.json";
 import { Settings, Fuel, Palette, Gauge, Phone, X } from "lucide-react";
 
 export default function AccentSection() {
@@ -25,7 +25,7 @@ export default function AccentSection() {
           className="group relative mx-auto block w-full max-w-2xl overflow-hidden rounded-2xl bg-black shadow-lg transition hover:shadow-xl"
         >
           <img
-            src={accent}
+            src={accent.url}
             alt="Hyundai Accent 2013 - Rental Lapraka"
             className="h-72 w-full object-cover transition duration-500 group-hover:scale-105 md:h-96"
             loading="lazy"
@@ -55,7 +55,7 @@ export default function AccentSection() {
                 <X className="h-4 w-4" />
               </button>
               <img
-                src={accent}
+                src={accent.url}
                 alt="Hyundai Accent 2013"
                 className="h-56 w-full bg-black object-cover md:h-72"
               />
